@@ -1,0 +1,26 @@
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  grid-gap: 0.75rem;
+}
+
+.pagination-item button {
+  background: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 2.5rem;
+  border-radius: 5px;
+  display: flex;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination-item button:hover {
+  opacity: 0.8;
+}
